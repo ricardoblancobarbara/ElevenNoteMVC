@@ -7,16 +7,17 @@
 <h2>Details</h2>
 
 <div>
-    <h4>NoteDetail</h4>
+    <h4>Note Detail</h4>
     <hr />
+    @*@Html.HiddenFor(model => model.NoteId)*@
     <dl class="dl-horizontal">
-        <dt>
+        @*<dt>
             @Html.DisplayNameFor(model => model.NoteId)
         </dt>
 
         <dd>
             @Html.DisplayFor(model => model.NoteId)
-        </dd>
+        </dd>*@
 
         <dt>
             @Html.DisplayNameFor(model => model.Title)

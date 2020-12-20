@@ -7,13 +7,13 @@ namespace ElevenNote.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.0-30225")]
-    public sealed partial class FirstMigration : IMigrationMetadata
+    public sealed partial class CategoryAdded : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(FirstMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CategoryAdded));
         
         string IMigrationMetadata.Id
         {
-            get { return "202012180052039_FirstMigration"; }
+            get { return "202012200101396_CategoryAdded"; }
         }
         
         string IMigrationMetadata.Source
